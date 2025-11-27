@@ -3,7 +3,7 @@ import json
 import logging
 
 from src.utils.slide_detector import detect_transitions
-from src.utils.ocr_engine import extract_text
+from src.utils.Histogram_based.ocr_engine import extract_text
 
 # ─── Configure Logging ───────────────────────────────────────────────
 logging.basicConfig(
