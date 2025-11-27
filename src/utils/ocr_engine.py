@@ -1,9 +1,10 @@
 import cv2
 import pytesseract
 import logging
+import os
 
 # You can also set the Tesseract path here if needed
-pytesseract.pytesseract.tesseract_cmd = r"D:\Programs\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = r"D:\Tesseract-OCR\tesseract.exe"
 
 def extract_text(image_path):
     if not os.path.exists(image_path):

@@ -3,7 +3,7 @@ import numpy as np
 import os
 import logging
 
-def detect_transitions(video_path, output_dir, threshold=0.5, frame_skip=30):
+def detect_transitions(video_path, output_dir, threshold=0.1, frame_skip=30):
     logging.info(f"Opening video: {video_path}")
     if not os.path.exists(video_path):
         logging.error(f"Video file does not exist: {video_path}")

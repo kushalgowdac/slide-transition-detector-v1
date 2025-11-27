@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 
 # ─── File Paths ──────────────────────────────────────────────────────
-video_path = "data/input_video.mp4"
+video_path = "data/input_video_2.mp4"
 slide_dir = "output/slides"
 results_file = "output/results.json"
 
