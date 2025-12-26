@@ -4,9 +4,9 @@ import os
 import logging
 
 def detect_transitions(video_path, output_dir, threshold=0.1, frame_skip=30):
-    logging.info(f"Opening video: {video_path}")
+    logging.info(f"Opening video: {"data/lecture.mp4"}")
     if not os.path.exists(video_path):
-        logging.error(f"Video file does not exist: {video_path}")
+        logging.error(f"Video file does not exist: {"data/lecture.mp4"}")
         return []
 
     cap = cv2.VideoCapture(video_path)
